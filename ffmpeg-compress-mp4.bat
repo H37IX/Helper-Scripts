@@ -1,5 +1,6 @@
-:: Compress MP4 File Using FFMPEG h264_nven
-:: Install with winget install ffmpeg
+:: INFO:git a
+:: Compress MP4 File Using FFMPEG h264_nvenc
+:: Install FFMPEG if you dont have it with "winget install ffmpeg" in terminal
 
 @echo off
 setlocal enabledelayedexpansion
