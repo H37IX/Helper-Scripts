@@ -1,0 +1,10 @@
+## go back to a specific commit revision
+git log
+git reset --hard <commit-id>
+
+
+
+## Force Remove Accidental Updates from Revision History 
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch FILE.txt" --prune-empty --tag-name-filter cat -- --all
+git push origin --force --all
+git push origin --force --tags
