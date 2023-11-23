@@ -1,4 +1,4 @@
-:: INFO:git a
+:: INFO:
 :: Compress MP4 File Using FFMPEG h264_nvenc
 :: Install FFMPEG if you dont have it with "winget install ffmpeg" in terminal
 
