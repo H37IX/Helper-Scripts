@@ -64,14 +64,7 @@ ffmpeg -i demo.mp4 -vf "fps=15,scale=640:-1:flags=lanczos" -c:v gif demo.gif
 
 ## Usage Instructions
 
-To use these commands, you can create a batch file with the desired command or run them directly in the command prompt. For example:
-
-```batch
-ffmpeg-helpers.bat rtsp-to-rtmp
-ffmpeg-helpers.bat mp4-to-mkv
-ffmpeg-helpers.bat compress-mp4
-ffmpeg-helpers.bat video-to-gif
-```
+Open terminal in the folder your file is in and replace the filenames accordingly
 
 ### Notes:
 - Replace placeholder values (like USERNAME, PASSWORD, IP addresses) with your actual values
