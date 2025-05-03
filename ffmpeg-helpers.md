@@ -64,7 +64,7 @@ ffmpeg -i demo.mp4 -vf "fps=15,scale=640:-1:flags=lanczos" -c:v gif demo.gif
 
 ## Usage Instructions
 
-Open terminal in the folder your file is in and replace the filenames accordingly
+Open terminal in the folder your file is in and replace the filenames accordingly to run the ffmpeg commands. You can also create a .bat file with the command and be sure to run it in the correct dir. 
 
 ### Notes:
 - Replace placeholder values (like USERNAME, PASSWORD, IP addresses) with your actual values
