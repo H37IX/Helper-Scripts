@@ -1,3 +1,34 @@
 # .gitignore
 .priv
 desktop.ini
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Media processing output directories
+Compressed/
+Processed/
+output/
+
+# Private files
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Log files
+*.log
+logs/
+
+# FFmpeg temporary files
+*.ffindex
+*.ffpreset
+
+# Windows specific
+*.lnk
+*.url
